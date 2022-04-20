@@ -3,6 +3,7 @@ th{
     ;
 }
 td{
+    color: hsl(59, 100%, 53%);
     background-color: #9841E3;
     font-style:inherit;
     border: 0.2px solid #6C08C3
@@ -29,20 +30,107 @@ table{
 main{
     display: flex;
     justify-content:center ;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 header{
     height: 200px;
 }
 footer{
+    display: flex;
+    justify-content:center ;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     height: 200px;
 }
 h1{
     text-align: center;
 }
+h3{
+    color:#DBFC00;
+}
 a {
-    color: rgb(0, 0, 0);
+    color: rgb(218, 187, 14);
     text-decoration: none;
+    
+}
+a:hover{
+    color:#2BA000
+}
+a:visited{
+    color:hwb(59, 100%, 53%)
 }
 p{
-    color: #000000;
+    background-color: #000000  ;
+    color: #9eff02ea;
 }
+#amigue{
+    background-image: url(https://cdn.pixabay.com/photo/2021/02/22/07/11/red-6039136_960_720.png);
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: cover;
+}
+#musica{
+    background-image: url(https://fondosmil.com/fondo/14381.jpg);
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: cover;
+}
+
+#eres{
+    background-image: url(https://fondosmil.com/fondo/14381.jpg);
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: cover;
+}
+
+#ella{
+    background-image: url(https://cdn.pixabay.com/photo/2021/02/22/07/11/red-6039136_960_720.png);
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: cover;
+}
+
+#plan{
+    background-image: url(https://fondosmil.com/fondo/14381.jpg);
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: cover;
+}
+
+#popuesta{
+    background-image: url(https://fondosmil.com/fondo/14381.jpg);
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: cover;
+}
+
+#perdedor{
+    background-image: url(https://fondosmil.com/fondo/14381.jpg);
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: cover;
+}
+
+#bella{
+    background-image: url(https://fondosmil.com/fondo/14381.jpg);
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: cover;
+}
+
+#ahora{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7H7CgfJy-TdjotbiqMAGj2Y7ow1YSrB6jKHokfICzZRMhSTiRb5NxfEE6g6ea2jN3A2k&usqp=CAU);
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: cover;
+}
+#darte{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7H7CgfJy-TdjotbiqMAGj2Y7ow1YSrB6jKHokfICzZRMhSTiRb5NxfEE6g6ea2jN3A2k&usqp=CAU);
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: cover
+}
+
